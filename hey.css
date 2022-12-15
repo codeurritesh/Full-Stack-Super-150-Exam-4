@@ -1,0 +1,101 @@
+body{
+    /* background-image: linear-gradient(to right,rgb(250, 250, 195),#DB4437);
+     */
+     background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(243,195,191,1) 0%, rgba(219,68,55,1) 100%);
+    padding: 50px 100px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(./images/ban.png);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+main{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+article{
+    background-color: rgb(244, 244, 244);
+    width: 820px;
+    height: 800px;
+    overflow: auto;
+border-radius: 5px;
+padding-bottom: 20px;
+
+
+}
+aside{
+    width: 420px;
+    height: 1000px;
+    margin-left: 50px;
+}
+section{
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.head{
+    padding: 10px;
+    background-color: rgba(220, 220, 220, 0.623);
+    border-radius: 5px;
+}
+#btext{
+    font-size: 20px;
+    text-align: justify;
+    /* padding-bottom: 20px; */
+
+}
+.bo{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+input[type="text"]{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: grey 1px solid;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    margin-left: 10px;
+    border: 1px grey solid;
+}
+.books{
+    height: 150px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+article{
+    font-size: 30px;
+}
+
+.b{
+    padding: 50px;
+}
+.h{
+    padding: 20px;
+}
